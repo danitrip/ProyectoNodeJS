@@ -1,0 +1,183 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* * {
+    border: 1px solid gray;
+} */
+
+/* HEADER */
+
+#div-header{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+/* .link-logo{
+width: 200px; 
+height: 200px;
+
+} */
+
+/* .nav {
+
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+
+} */
+
+
+
+.logo {
+    width: 70px;
+    height: 70px;  
+    position: absolute;
+    left: 0;
+    /*top: 10px;
+    z-index: 1;
+     border: solid 1px black; */
+
+}
+
+nav {
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    /* text-decoration: none; */
+
+
+}
+
+
+li{
+    margin-right: 50px;
+    
+    
+}
+
+
+a{
+    text-decoration: none;
+    color:darkblue;
+    font-size: larger;
+    
+}
+
+
+
+
+.servicios {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-servicios {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+
+}
+
+
+
+
+/* MAIN */
+main {
+    height: 500px;
+    margin-top: 1em;
+    color: black;
+}
+
+
+
+.main-div {
+
+}
+
+section{
+    color: white;
+   
+}
+
+
+.sectionH1{
+    padding-top: 2em;
+font-size: large;
+padding-bottom: 10px;
+line-height: 30px;
+}
+
+.sectionH2{
+padding-top: 10px;
+font-size: medium;
+line-height: 30px;
+}
+
+.Portada {
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white; */
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    opacity: .5;
+
+}
+
+#portada-text{
+    padding-left: 2.5%;
+    text-align: left;
+    margin-right: 25%;
+}
+
+
+
+
+/* .open {
+    display: flex;
+} */
+
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+    
+}
+
+.sucursales{ display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+    
+}
+
+.Copyright { display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
+
+
+/* Página  Nosotros */
+#p-div{
+    color: white;
+    line-height: 30px;
+}
