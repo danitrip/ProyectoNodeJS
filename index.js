@@ -9,9 +9,13 @@ app.use(express.static(path.join(__dirname, './public')));
 //Controllers
 const navigationController = require('./server/controllers/navigationController');
 
+const homeController = require('./server/controllers/homeController');
+
 //Routes
 app.get('/',navigationController.getIndex);
-app.get('home', navigationController.getHome);
+app.get('/home', navigationController.getContacto);
+
+app.get('/api/home',homeController.getContent);
 
 //Puerto en el que escucha
 app.listen(3000,() => {

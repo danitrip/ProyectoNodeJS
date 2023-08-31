@@ -13,14 +13,14 @@ const getIndex = (req,res) => {
 }
 
 
-const getHome = (req,res) => {
-    const filePath = path.join(__dirname, '../../public/Home.html')
+const getContacto = (req,res) => {
+    const filePath = path.join(__dirname, '../../public/Contacto.html')
     res.sendFile(filePath);
 }
 
 //exportacion de modulos
 module.exports = {
     getIndex,
-    getHome,
+    getContacto,
 
 };
