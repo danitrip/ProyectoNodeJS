@@ -9,4 +9,3 @@ const homeSchema = new Schema({
 
 const Home = model('HomeContent', homeSchema);
 module.exports = Home;
-
