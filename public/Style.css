@@ -139,8 +139,26 @@ footer{
 }
 
 
-/* Página  Nosotros */
+/* Página Nosotros */
 #p-div{
     color: white;
     line-height: 30px;
+}
+
+/*Página Contacto*/
+form {
+    display: block;
+    margin-top: 0em;
+    background: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }

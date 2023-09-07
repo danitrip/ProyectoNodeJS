@@ -14,7 +14,7 @@
         <nav>
 
             <ul>
-                <li><a href="./Index.html"><img class="logo" src="./Assets/Logo1.jpg" alt="Logo"></a></li>
+                <li><a href="./Index.html"><img class="logo" src="./Assets/icon.png" alt="Logo"></a></li>
                 <li><a href="./Index.html">Home</a></li>
                 <li><a href="./Nosotros.html">Nosotros</a></li>
                 <li><a href="./Servicios.html">Servicios</a></li>
@@ -28,36 +28,34 @@
     </header>
     <main>
         <div>
-            <p>¡Complete el formulario y haremos que uno de nuestros expertos en tecnología se comunique en breve!
+            <img src="./Assets/Portada.jpg" alt="Portada" class="Portada">
+            <div id="portada-text">
+        <div>
+            <p>Complete el formulario y haremos que uno de nuestros expertos en tecnología se comunique a la brevedad
             </p>
         </div>
 
 
+        <div>
+            <form id="class">
 
-        <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="get">
+                
+                <input type="text" name="empresa" class="required" required placeholder="Empresa">
+               
+                <input type="text" name="nombre" class="required" required placeholder="Nombre">
+           
+                <input type="email" name="correo" class="required" required placeholder="Email">
 
-            <label for="empresa">Empresa</label>
-            <input type="text" name="empresa" class="required" required>
+                <input type="text" name="mensaje" class="required" required placeholder="Mensaje">
 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" class="required" required>
+                <input type="submit" value="ENVIAR">
 
-            <label for="correo">Correo</label>
-            <input type="email" name="correo" class="required" required>
-
-            <label for="telefono">Teléfono</label>
-            <input type="text" name="telefono" class="required" required>
-
-            <label for="mensaje">Mensaje</label>
-            <input type="text" name="mensaje" class="required" required>
-
-            <input type="submit" value="enviar">
+            </form>
+        </div>
 
 
 
-
-
-        </form>
+       
     </main>
 
     <footer>
@@ -87,14 +85,8 @@
             </ul>
         </div>
 
-
-
-    </footer>
-
-
+     </footer>
 
 </body>
-
-
 
 </html>

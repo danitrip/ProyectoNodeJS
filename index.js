@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const PORT = 3000
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -24,6 +25,6 @@ app.post('/api/home',homeController.createContent);
 
 //Puerto en el que escucha
 app.listen(3000,() => {
-    console.log('Server is running on port 3000');
+    console.log(`Server is running on http://localhost:${PORT}`);
 
 });
