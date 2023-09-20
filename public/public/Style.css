@@ -1,0 +1,164 @@
+* {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/** {
+    border: 1px solid gray;
+}*/
+
+/* HEADER */
+
+#div-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* .link-logo{
+width: 200px; 
+height: 200px;
+
+} */
+
+/* .nav {
+
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+
+} */
+
+
+
+.logo {
+    width: 70px;
+   padding-left: 20%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+}
+
+li{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(3 78 162);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.servicios {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-servicios {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: -30px;
+
+}
+
+/* MAIN */
+main {
+    height: 500px;
+    color: black;
+}
+
+.sectionH1{
+    padding: 10%;
+    line-height: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.sectionH2{
+    padding: 5%;
+    font-size: medium;
+    line-height: 40px;
+    background-color: rgb(3 78 162);
+}
+
+.section2{
+    background-color: rgb(3 78 162);
+    color:white;
+}
+
+.Portada {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: -1;
+    filter: grayscale(90%);
+}
+
+#portada-text{
+    padding-left: 2.5%;
+    text-align: left;
+    margin-right: 25%;    
+}
+
+/* .open {
+    display: flex;
+} */
+
+
+/* FOOTER */
+
+footer{
+    padding: 1%;
+    background-color: rgb(81, 80, 80);
+    color: white;    
+}
+
+.sucursales{ display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+    
+}
+
+.Copyright { display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+}
+
+
+/* Página Nosotros */
+#p-div{
+    color: white;
+    line-height: 30px;
+}
+
+/*Página Contacto*/
+form {
+    display: block;
+    margin-top: 0em;
+    background: #d8d8d8;
+    border: 1px solid #d8d8d8;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
