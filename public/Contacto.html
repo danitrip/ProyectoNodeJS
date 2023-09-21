@@ -4,9 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Soporte Técnico</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./Style.css">
+    <link rel="icon" href="./Assets/icon.png">
 </head>
 
 <body>
@@ -30,26 +34,39 @@
         </div>
 
     </header>
-    <main>
+    <div class="container-fluid">
         <div>
-            <img src="./Assets/Portada.jpg" alt="Portada" class="Portada">
-            <div id="portada-text">  
-                <section class="sectionH1">        
-                <p>Complete el formulario y haremos que uno de nuestros expertos en tecnología se comunique a la brevedad
-                </p>
-            </section> 
-            </div>
+            <img src="./Assets/Portada.jpg" alt="Portada" class="Portada">            
         </div>
-        <div>
-            <form id="class">
-                <input type="text" name="empresa" class="required" required placeholder="Empresa">              
-                <input type="text" name="nombre" class="required" required placeholder="Nombre">           
-                <input type="email" name="correo" class="required" required placeholder="Email">
-                <input type="text" name="mensaje" class="required" required placeholder="Mensaje">
-                <input type="submit" value="ENVIAR">
+        <div class="mx-auto" style="width: 70%;">
+            <p style="padding:3%; color:white;line-height: 40px;
+                color: #FFFFFF;
+                font-weight: bold;
+                font-size: x-large; ">Complete el formulario y haremos que uno de nuestros expertos en tecnología se comunique a la brevedad
+                </p>
+            <form>
+                <div class="form-group row p-4">
+                    <label for="exampleInputEmail1">Empresa</label>
+                    <input type="text" name="empresa" class="form-control required" required placeholder="Empresa">
+                </div>
+                <div class="form-group row p-4">
+                    <label for="exampleInputEmail1">Nombre</label>
+                    <input type="text" name="nombre" class="form-control required" required placeholder="Nombre">
+                </div>
+                <div class="form-group row p-4">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group row p-4">
+                    <label for="exampleInputEmail1">Mensaje</label>
+                    <input type="text" name="mensaje" class="form-control required" required placeholder="Mensaje">
+                </div>
+                <div class="form-group form-check p-3">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
             </form>
         </div>
-    </main>
+    </div>
     <footer>
         <div>
             <h3 class="sucursales">Sucursales</h3>
@@ -83,7 +100,9 @@
 
         </div>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
 </body>
 
 </html>
