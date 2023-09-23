@@ -24,11 +24,11 @@
         </div>
             <nav>
                 <ul>
-                    <li class="nav"><a href="./Index.html">Home</a></li>
-                    <li class="nav"><a href="./Nosotros.html">Nosotros</a></li>
-                    <li class="nav"><a href="./Servicios.html">Servicios</a></li>
-                    <li class="nav"><a href="./Contacto.html">Contacto</a></li>
-                    <li class="nav"><a href="./IniciarSesion.html">Iniciar Sesión</a></li>
+                    <li class="nav"><a href="/Index">Home</a></li>
+                    <li class="nav"><a href="/Nosotros">Nosotros</a></li>
+                    <li class="nav"><a href="/Servicios">Servicios</a></li>
+                    <li class="nav"><a href="/Contacto">Contacto</a></li>
+                    <li class="nav"><a href="/IniciarSesion">Iniciar Sesión</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,25 +44,25 @@
                 font-weight: bold;
                 font-size: x-large; ">Complete el formulario y haremos que uno de nuestros expertos en tecnología se comunique a la brevedad
                 </p>
-            <form>
+            <form id="contacto">
                 <div class="form-group row p-4">
                     <label for="exampleInputEmail1">Empresa</label>
-                    <input type="text" name="empresa" class="form-control required" required placeholder="Empresa">
+                    <input id="empresa" type="text" name="empresa" class="form-control required" required placeholder="Empresa">
                 </div>
                 <div class="form-group row p-4">
                     <label for="exampleInputEmail1">Nombre</label>
-                    <input type="text" name="nombre" class="form-control required" required placeholder="Nombre">
+                    <input id="nombre" type="text" name="nombre" class="form-control required" required placeholder="Nombre">
                 </div>
                 <div class="form-group row p-4">
                     <label for="exampleInputEmail1">Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <input id="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                 </div>
                 <div class="form-group row p-4">
                     <label for="exampleInputEmail1">Mensaje</label>
-                    <input type="text" name="mensaje" class="form-control required" required placeholder="Mensaje">
+                    <input id="mensaje" type="text" name="mensaje" class="form-control required" required placeholder="Mensaje">
                 </div>
                 <div class="form-group form-check p-3">
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button id="submit" type="submit" class="btn btn-primary">Enviar</button>
                 </div>
             </form>
         </div>
@@ -103,6 +103,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>    
+    <script src="./js/contact.js"></script>
 </body>
 
 </html>

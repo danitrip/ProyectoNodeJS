@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: '.env' });
 
 const PORT = 3000
 const express = require('express');
@@ -15,6 +15,7 @@ const navigationController = require('./server/controllers/navigationController'
 
 const homeController = require('./server/controllers/homeController');
 const userController = require('./server/controllers/userController');
+const contactController = require('./server/controllers/contactController');
 //Routes
 app.get('/',navigationController.getIndex);
 app.get('/contacto', navigationController.getContacto);
@@ -22,6 +23,8 @@ app.get('/contacto', navigationController.getContacto);
 //Metodo para acceder a cierto contenido
 app.get('/api/home',homeController.getContent);
 app.post('/api/home',homeController.createContent);
+
+app.post('/api/contacto',contactController.createContent);
 
 app.get('/users', userController.getAll);
 app.post('/user', userController.create);
