@@ -16,6 +16,7 @@ const getContent = async (req,res) => {
 const createContent = async(req,res) => {
 const data = req.body;
 const newContent = await homeModel.createContent(data);
+
 res.json(newContent);
 };
 
