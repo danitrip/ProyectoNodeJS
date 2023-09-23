@@ -19,7 +19,6 @@ const createContent = async (data) => {
     try {
         await conectarDB();
         const content = new HomeContent(data);
-        console.log('HOMEMODEL')
         const newContent = await content.save();
         return newContent;
     } catch (error) {

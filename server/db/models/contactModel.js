@@ -16,15 +16,14 @@ const getContent = async () => {
 };
 
 const createContent = async (data) => {
-    console.log("data" + JSON.stringify(data));
+    
     try {
         await conectarDB();
         const content = new ContactContent(data);
-        console.log('ContactMODEL')
         const newContent = await content.save();
         return newContent;
     } catch (error) {
-        console.log('contactModel ERROR' + error);
+        console.log('ERROR ' + error);
     } finally {
 
         await desconectarDB();
